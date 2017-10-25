@@ -1,0 +1,48 @@
+.sn_topBar{
+  width:100%;
+  height:90rem/@baseFontSize;
+  background-color: @snColor;
+  position: fixed;
+  left: 0;
+  top:0;
+  z-index: 99999;
+  padding: 0 90rem/@baseFontSize;
+  a {
+    width:90rem/@baseFontSize;
+    height:90rem/@baseFontSize;
+    position: absolute;
+    top:0;
+  &.icon_category{
+    left:0;
+    background: url("../images/icon_category.png") no-repeat center / 44rem/@baseFontSize 70rem/@baseFontSize;
+  }
+  &.icon_cart{
+    right: 0;
+    background: url("../images/icon_cart.png") no-repeat center / 63rem/@baseFontSize 68rem/@baseFontSize;
+  }
+  }
+  form{
+    width:100%;
+    //height:60rem/@baseFontSize;
+    position: relative;
+
+    span.icon_search{
+      width: 30rem/@baseFontSize;
+      position: absolute;
+      height:30rem/@baseFontSize;
+      left: 0rem/@baseFontSize;
+      top:30rem/@baseFontSize;
+      background: url("../images/icon_search.png") no-repeat center / 27rem/@baseFontSize 28rem/@baseFontSize;
+    }
+    input {
+      width:100%;
+      height:60rem/@baseFontSize;
+      margin-top: 15rem/@baseFontSize;
+      background-color: rgba(255,255,255,0.3);
+      padding-left: 50rem/@baseFontSize;
+      font-size: 3
+        0rem/@baseFontSize;
+    }
+  }
+
+}
